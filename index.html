@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SurfsCo</title>
+    <!-- CSS -->
+    <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font family -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- angular route -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+  </head>
+  <body ng-app="myApp">
+    <div id="surf-web" ng-controller="carCtrl">
+      <div class="mb3 relative">
+        <div class="hero-img">
+          <!-- Hero Image Section -->
+          <div class="max-width-4 mx-auto pt2 px2">
+            <!-- Navigation Section -->
+            <nav class="clearfix pb4">
+              <div class="sm-col sm-col-12 md-col-2">
+                <img src="img/logo.png" class="fit" alt="logo image">
+              </div>
+               <div class="sm-col sm-col-10 md-col-8 pt2">
+                <div class="collapse center h5">
+                  <a href="#" class="text-decoration-none mr1 font-uppercase black bold p1">Boards</a>
+                  <a href="#" class="text-decoration-none mr1 font-uppercase black bold p1">Accessories</a>
+                  <a href="#" class="text-decoration-none mr1 font-uppercase black bold p1">Blog</a>
+                  <a href="#" class="text-decoration-none mr1 font-uppercase black bold p1">Technology</a>
+                  <a href="#" class="text-decoration-none mr1 font-uppercase black bold p1">Team</a>
+                  <a href="#" class="text-decoration-none font-uppercase black bold p1">Dealers</a>
+                </div>
+               </div>
+              <!-- icons -->
+              <div class="sm-col sm-col-2 md-col-2">
+                <div class="d-inline-block right nav-icons">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                  </span>
+                </div>
+              </div>
+            </nav>
+            <div class="clearfix expanded-nav absolute">
+                <!-- collapsed nav -->
+                <div class="collapsed d-none">
+                  <div class="col col-6">
+                    <img src="img/logo.png" class="fit pl1"  alt="logo image">
+                  </div>
+                  <div class="col col-6 right-align">
+                    <span class="inline-block pr1">
+                      <i class="fa fa-bars fa-2x" id="iconBar-surf" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                  <div class="dropdown d-none white-bg col col-12">
+                    <a href="#" class="text-center text-decoration-none block">Boards</a>
+                    <a href="#" class="text-center text-decoration-none block">Accessories</a>
+                    <a href="#" class="text-center text-decoration-none block">Blog</a>
+                    <a href="#" class="text-center text-decoration-none block">Technology</a>
+                    <a href="#" class="text-center text-decoration-none block">Team</a>
+                    <a href="#" class="text-center text-decoration-none block">Dealers</a>
+                  </div>
+                </div>
+            </div>
+            <h1 class="text-center mb0 italic">Ride every wawe as if it's your last</h1>
+            <p class="text-center white h2 mt1 hero-text italic">We love the motion of the ocean</p>
+          </div>
+
+          <!-- Carousel -->
+          <div class="carousel max-width-4 mx-auto clearfix" id="carousel-surf">
+            <div class="col col-12">
+              <div class="clearfix background-blue">
+                <div class="clearfix right-align pt3">
+                  <div class="col col-12 clearfix">
+                    <div class="prev inline-block pr1">
+                      <i class="fa fa-long-arrow-left fa-lg white dark-yellow-bg p1" aria-hidden="true"></i>
+                    </div>
+                    <div class="next inline-block right-align pl1 mr1">
+                      <i class="fa fa-long-arrow-right fa-lg white dark-yellow-bg p1" aria-hidden="true"></i>
+                    </div>
+                  </div> 
+                </div>
+                <div class="sm-col sm-col-12 md-col-5">
+                  <img src="" class="fit block mx-auto main-img"  alt="surf board">
+                </div>
+                <div class="sm-col sm-col-12 md-col-2 thumbnails pt8">
+                  <img src="" class="fit block mx-auto mb1" alt="surf board thumbnail">
+                  <img src="" class="fit block mx-auto mb1" alt="surf board thumbnail">
+                  <img src="" class="fit block mx-auto mb1" alt="surf board thumbnail">
+                  <img src="" class="fit block mx-auto" alt="surf board thumbnail">
+                </div>
+                <div class="sm-col sm-col-12 md-col-5">
+                  <h3 class="my0 pt2"></h3>
+                  <div class="rating pb3">
+                    <span class="stars">
+                      <i class='fa fa-star star-rate' aria-hidden='true'></i>
+                      <i class='fa fa-star star-rate' aria-hidden='true'></i>
+                      <i class='fa fa-star star-rate' aria-hidden='true'></i>
+                      <i class='fa fa-star star-rate' aria-hidden='true'></i>
+                      <i class='fa fa-star star-rate' aria-hidden='true'></i>
+                    </span>
+                    <span class="num bold gray"></span>
+                  </div>
+                  <!-- Tab panel -->
+                  <div class="surf-tab-container">
+                    <div class="surf-tab border-b p-xs">
+                      <a data-href="#text1" class="tab-active mr2 font-uppercase gray bold">Description</a>
+                      <a data-href="#text2" class="mr2 font-uppercase gray bold">Features</a>
+                      <a data-href="#text3" class="font-uppercase gray bold">Dimensions</a>
+                    </div>
+                    <div class="surf-tab-text">
+                      <p id="text1" class="dark-gray"></p>
+                      <p id="text2" class="d-none dark-gray"></p>
+                      <p id="text3" class="d-none dark-gray"></p>
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="col col-6">
+                      <p class="price h3 bold mt1"></p>
+                    </div>
+                    <div class="col col-6">
+                      <a href="#" class="h4 mt1 inline-block text-decoration-none white blue-bg bold font-uppercase py1 px2 ">Buy now</a>
+                    </div>
+                  </div>
+                  <a href="#" class="mt6 inline-block text-decoration-none blue view-all bold">View all boards</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <!-- About Us Section -->
+      <div class="about">
+        <div class="max-width-3 mx-auto px2">
+          <img src="img/about_us.png" class="fit mx-auto mt6" alt="about us">
+        </div>
+        <div class="about-bg">
+          <div class="clearfix">
+            <div class="sm-col sm-col-12 md-col-6 white-bg mt10 pr2 pt2 pb12 pl13">
+              <h4 class="mb1 center">We are surfers co</h4>
+              <div class="center"><i class="fa fa-times" aria-hidden="true"></i></div>
+              <p class="italic">Lorem ipsum dolor sit amet, aeneam consectetur adipiscing elit. Fusce iaculis feugiat arcunum fermentum hendrerit. Suspendisse auctor labor nisi, et interdum diam facilisis, aliquam pulvinar semi egetis belle sollicitudin ut. Nullam tincidun finibustus scelerisque.</p>
+              <a href="#" class="inline-block text-decoration-none blue view-all bold">Read more</a>
+            </div>
+            <div class="sm-col sm-col-12 md-col-6">
+              <img class="mt18 fit" src="img/surfPic.png" alt="surfing">
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <!-- Our Team Section -->
+      <div class="team clearfix max-width-4 mx-auto">
+        <div class="max-width-3 mx-auto px2">
+          <img src="img/our_team.png" class="fit mx-auto mt6" alt="our team">
+        </div>
+        <!-- Carousel -->
+        <div class="carousel px2">
+          <div class="previous sm-col sm-col-1 mt10">
+            <span class="fa-stack border-radius border-blue">
+              <i class="fa fa-circle fa-stack-2x white"></i>
+              <i class="fa fa-arrow-left fa-stack-1x fa-inverse blue"></i>
+            </span>
+          </div>
+          <div class="clearfix sm-col sm-col-10">
+            <div class="team-card py2 sm-col sm-col-3">
+              <img src="" class="fit mx-auto block round-border team-pic" alt="member of the team">
+              <h4 class="center blue mb0 mt1"></h4>
+              <p class="center nickname gray mt0 mb1"></p>
+              <img src="img/wave-black.png" class="fit mx-auto block" alt="black wave">
+              <p class="center mt1">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span class="location gray"></span>
+              </p>
+            </div>
+            <div class="team-card py2 mt4 sm-col sm-col-3">
+              <img src="" class="fit mx-auto block round-border team-pic" alt="member of the team">
+              <h4 class="center blue mb0 mt1"></h4>
+              <p class="center nickname gray mt0 mb1"></p>
+              <img src="img/wave-black.png" class="fit mx-auto block" alt="black wave">
+              <p class="center mt1">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span class="location gray"></span>
+              </p>
+            </div>
+            <div class="team-card py2 sm-col sm-col-3">
+              <img src="" class="fit mx-auto block team-pic round-border" alt="member of the team">
+              <h4 class="center blue mb0 mt1"></h4>
+              <p class="center nickname gray mt0 mb1"></p>
+              <img src="img/wave-black.png" class="fit mx-auto block" alt="black wave">
+              <p class="center mt1">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span class="location gray"></span>
+              </p>
+            </div>
+            <div class="team-card py2 mt4 sm-col sm-col-3">
+              <img src="" class="fit mx-auto block round-border team-pic" alt="member of the team">
+              <h4 class="center blue mb0 mt1"></h4>
+              <p class="center nickname gray mt0 mb1"></p>
+              <img src="img/wave-black.png" class="fit mx-auto block" alt="black wave">
+              <p class="center mt1">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span class="location gray"></span>
+              </p>
+            </div> 
+          </div>
+          <div class="nextOne sm-col sm-col-1 mt10 right-align">
+            <span class="fa-stack border-radius border-blue">
+              <i class="fa fa-circle fa-stack-2x white"></i>
+              <i class="fa fa-arrow-right fa-stack-1x fa-inverse blue"></i>
+            </span>
+          </div>
+        </div>
+        <!-- Carousel-mobile -->
+        <div class="carousel-mobile px2 d-none">
+          <div class="mx-auto w-50">
+            <div class="team-card py2">
+              <img src="" class="fit mx-auto block round-border team-pic" alt="member of the team">
+              <h4 class="center blue mb0 mt1"></h4>
+              <p class="center nickname gray mt0 mb1"></p>
+              <img src="img/wave-black.png" class="fit mx-auto block my1" alt="black wave">
+              <p class="center my1">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span class="location gray"></span>
+              </p>
+            </div>
+          </div>
+          <div class="clearfix mt1">
+            <div class="previous col col-6 right-align">
+              <span class="fa-stack border-radius border-blue mr2">
+                <i class="fa fa-circle fa-stack-2x white"></i>
+                <i class="fa fa-arrow-left fa-stack-1x fa-inverse blue"></i>
+              </span>
+            </div>
+            <div class="nextOne col col-6">
+              <span class="fa-stack border-radius border-blue ml2">
+                <i class="fa fa-circle fa-stack-2x white"></i>
+                <i class="fa fa-arrow-right fa-stack-1x fa-inverse blue"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Latest Updates Section -->
+      <div class="updates center max-width-4 clearfix mx-auto mt6">
+        <h2 class="mb1">Latest Updates</h2>
+        <div class="mb3"><i class="fa fa-times" aria-hidden="true"></i></div>
+        <div class="sm-col sm-col-4">
+          <div class="gray w-70 mx-auto">
+            <img src="img/update-pic1.png" class="fit mx-auto block" alt="updates picture">
+            <p class="left-align p2 mt0">Ellie Turner and Jobe Harris have taken out the 2016 British National Surf Championships</p>
+          </div>
+        </div>
+        <div class="sm-col sm-col-4">
+          <div class="gray w-70 mx-auto">
+            <img src="img/update-pic2.png" class="fit mx-auto block" alt="updates picture">
+            <p class="left-align p2 mt0">Ellie Turner and Jobe Harris have taken out the 2016 British National Surf Championships</p>
+          </div>
+        </div>
+        <div class="sm-col sm-col-4">
+          <div class="gray w-70 mx-auto">
+            <img src="img/update-pic3.png" class="fit mx-auto block" alt="updates picture">
+            <p class="left-align p2 mt0">Ellie Turner and Jobe Harris have taken out the 2016 British National Surf Championships</p>
+          </div>
+        </div>
+        <a href="#" class="font-uppercase mt2 inline-block white text-decoration-none blue-bg p1">View all posts</a>
+      </div>
+
+      <!-- Social Media Section -->
+      <div class="my4 media clearfix max-width-4 mx-auto px2">
+        <img src="img/instagram.png" class="fit block mt6 insta-pic" alt="instagram">
+        <div class="sm-col sm-col-12 md-col-6">
+          <div class="clearfix">
+            <div class="col col-6">
+              <img src="img/insta1.png" class="fit right block" alt="beautiful nature">
+            </div>
+            <div class="col col-6">
+              <img src="img/insta2.png" class="fit block" alt="beautiful nature">
+            </div>
+          </div>
+          <div class="clearfix">
+            <div class="col col-6">
+              <img src="img/insta3.png" class="fit right block" alt="beautiful nature">
+            </div>
+            <div class="col col-6">
+              <img src="img/insta4.png" class="fit block" alt="beautiful nature">
+            </div>
+          </div>
+          <div class="white-bg">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <span class="caps blue bold">Follow us</span>
+            <span>@surfersco</span>
+          </div>
+        </div>
+        <div class="sm-col sm-col-12 md-col-6">
+          <img src="img/facebook.png" class="fit mx-auto block mt6" alt="facebook">
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="black-bg">
+        <div class="clearfix max-width-4 mx-auto py3 px2">
+          <div class="sm-col sm-col-12 md-col-6">
+            <div>
+              <p class="dark-gray">@ 2017 Surfers Co.<p>
+            </div>
+          </div>
+          <div class="sm-col sm-col-12 md-col-6">
+            <div class="clearfix">
+              <div class="col col-6">
+                <a href="#" class="text-decoration-none">
+                  <p class="white">
+                    <img src="img/wave-yellow.png" class="fit mx-auto pr1" alt="yellow wave">
+                    About
+                  </p>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <p class="white">
+                    <img src="img/wave-yellow.png" class="fit mx-auto pr1" alt="yellow wave">
+                    Boards
+                  </p>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <p class="white">
+                    <img src="img/wave-yellow.png" class="fit mx-auto pr1" alt="yellow wave">
+                    Accessories
+                  </p>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <p class="white">
+                    <img src="img/wave-yellow.png" class="fit mx-auto pr1" alt="yellow wave">
+                    Blog
+                  </p>
+                </a>
+              </div>
+              <div class="col col-6">
+                <a href="#" class="text-decoration-none">
+                  <p class="white">
+                    <img src="img/wave-yellow.png" class="fit mx-auto pr1" alt="yellow wave">
+                    Technology
+                  </p>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <p class="white">
+                    <img src="img/wave-yellow.png" class="fit mx-auto pr1" alt="yellow wave">
+                    Team
+                  </p>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <p class="white">
+                    <img src="img/wave-yellow.png" class="fit mx-auto pr1" alt="yellow wave">
+                    Dealers
+                  </p>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <p class="white">
+                    <img src="img/wave-yellow.png" class="fit mx-auto pr1" alt="yellow wave">
+                    Contact us
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="clearfix mailList">
+              <h4 class="white bold pt3">Subscribe to our newsletter</h4>
+              <form class="border-bottom-gray">
+                <i class="fa fa-envelope dark-gray pr1" aria-hidden="true"></i>
+                <input type="email" name="email" placeholder="Your e-mail" class="black-bg none-border" required>
+                <i class="fa fa-arrow-circle-right blue" aria-hidden="true"></i>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html> 
+  

@@ -1,0 +1,46 @@
+[
+	{
+		"Image": "surf-board-1.png",
+		"Title": "JR Surfboards The Donny Stoker Yellow/Green Rail Fade",
+		"Rating": "(51)",
+		"Thumbnails": ["img/thumbnail-1.png", "img/thumbnail-2.png", "img/thumbnail-3.png", "img/thumbnail-4.png"],
+		"Description": "Lorem Ipsum. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Features": "Lorem Ipsum some features. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Dimensions": "Lorem Ipsum some Dimensions. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Price": "$499.99",
+		"Stars": "2"
+	},
+	{
+		"Image": "surf-board-2.png",
+		"Title": "Surfboards The Big Heart Red/Brown Rail Fade",
+		"Rating": "(63)",
+		"Thumbnails": ["img/thumbnail-1.png", "img/thumbnail-2.png", "img/thumbnail-3.png", "img/thumbnail-4.png"],
+		"Description": "Lorem Ipsum Bacon ipsum. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Features": "Bacon ipsum dolor amet pork belly tenderloin salami capicola pancetta porchetta picanha burgdoggen strip steak pig ham. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Dimensions": "Lorem Ipsum some Dimensions Bacon ipsum. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Price": "$699.99",
+		"Stars": "3"
+	},
+	{
+		"Image": "surf-board-3.png",
+		"Title": "Surfboards The Big Bang Theory Green/Pink Rail Blade",
+		"Rating": "(5)",
+		"Thumbnails": ["img/thumbnail-1.png", "img/thumbnail-2.png", "img/thumbnail-3.png", "img/thumbnail-4.png"],
+		"Description": "Cupcake ipsum dolor. Sit amet jelly - o marshmallow liquorice chocolate bar gummies dragée. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Features": "Cupcake ipsum dolor Lorem Ipsum some features. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Dimensions": "Lorem Ipsum some Dimensions Cupcake ipsum dolor. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Price": "$799.99",
+		"Stars": "5"
+	},
+	{
+		"Image": "surf-board-4.png",
+		"Title": "Surfboards The Banana Bread Yellow Rail",
+		"Rating": "(59)",
+		"Thumbnails": ["img/thumbnail-1.png", "img/thumbnail-2.png", "img/thumbnail-3.png", "img/thumbnail-4.png"],
+		"Description": "Coffee sorbet orange apple. Cake cake cake sundae froyo cherry, popsicle popsicle chocolate chip. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Features": "Lorem Ipsum some features Coffee sorbet. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Dimensions": "Lorem Ipsum some Dimensions cake cake sundae. Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+		"Price": "$599.99",
+		"Stars": "4"
+	}
+]

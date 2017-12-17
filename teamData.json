@@ -1,0 +1,50 @@
+[
+	{
+		"Image": "img/teamPic1.png",
+		"Title": "Taj Burrow",
+		"Nickname": "@tajamos",
+		"Location": "Wailua, Hi"
+	},
+	{
+		"Image": "img/teamPic2.png",
+		"Title": "Malia Manuel",
+		"Nickname": "@maliamanuel",
+		"Location": "Wailua, Hi"
+	},
+	{
+		"Image": "img/teamPic1.png",
+		"Title": "Ian Walsh",
+		"Nickname": "@ian.walsh",
+		"Location": "Maui, Hi"
+	},
+	{
+		"Image": "img/teamPic4.png",
+		"Title": "Macy Callaghan",
+		"Nickname": "@macyhan",
+		"Location": "Denver, CO"
+	},
+	{
+		"Image": "img/teamPic2.png",
+		"Title": "Hanna Montana",
+		"Nickname": "@hannamontana",
+		"Location": "Denver, CO"
+	},
+	{
+		"Image": "img/teamPic1.png",
+		"Title": "David Leto",
+		"Nickname": "@davidleto",
+		"Location": "Portland, OR"
+	},
+	{
+		"Image": "img/teamPic4.png",
+		"Title": "Natalie Portman",
+		"Nickname": "@natport",
+		"Location": "Seattle, WA"
+	},
+	{
+		"Image": "img/teamPic1.png",
+		"Title": "Steven Brown",
+		"Nickname": "@stevebrown",
+		"Location": "Moscow, Russia"
+	}
+]
