@@ -137,7 +137,7 @@ body {
 
 /*Hero image section*/
 #surf-web .hero-img {
-	background-image: url(../img/Surfing.png);
+	background-image: url(../img/Surfing.jpg);
 	background-repeat: no-repeat;
 	height: 500px;
     background-size: cover;
@@ -205,7 +205,7 @@ body {
 
 /*About section*/
 #surf-web .about-bg {
-	background-image: url(../img/photo.png);
+	background-image: url(../img/photo.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom;
     background-size: cover;
