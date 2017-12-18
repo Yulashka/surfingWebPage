@@ -1,6 +1,18 @@
 /*Carousel*/
 var app = angular.module("myApp", ["ngRoute"]);
 app.controller('carCtrl', function($scope, $http) {
+
+  //when window is less then 650px, collapse the navigation
+  $(document).ready(function(){
+    if($(window).width() < 650){
+        $(".collapse").addClass("d-none");
+        $(".collapsed").removeClass("d-none");
+      }else {
+        $(".collapse").removeClass("d-none");
+        $(".collapsed").addClass("d-none");
+      }
+  });
+
   $http.get("carouselData.json").then(mySuccess, myError);
 
   //when json data is successfully loaded use it to build the page
@@ -112,7 +124,7 @@ app.controller('carCtrl', function($scope, $http) {
 
     //when window is less 650 px collapse the navigation
     $(window).resize(function() {
-        if($(window).width() < 650){
+      if($(window).width() < 650){
         $(".collapse").addClass("d-none");
         $(".collapsed").removeClass("d-none");
       }else {
@@ -252,7 +264,20 @@ app.controller('carCtrl', function($scope, $http) {
 
   //on resize hide/show collapsed nav
   $(window).resize(function() {
-      if($(window).width() < 650){
+    if($(window).width() < 650){
+      $("#surf-web .collapse").addClass("display-none");
+      $("#surf-web .collapsed").removeClass("display-none");
+      $("#surf-web nav").addClass("display-none");
+    }else {
+      $("#surf-web .collapse ").removeClass("display-none");
+      $("#surf-web .collapsed").addClass("display-none");
+      $("#surf-web nav").removeClass("display-none");
+    }
+  });
+
+  //when window is less then 650px, collapse the navigation
+  $(document).ready(function(){
+    if($(window).width() < 650){
       $("#surf-web .collapse").addClass("display-none");
       $("#surf-web .collapsed").removeClass("display-none");
       $("#surf-web nav").addClass("display-none");
